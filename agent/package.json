@@ -1,0 +1,12 @@
+{
+  "name": "stampede-agent",
+  "module": "src/harness.ts",
+  "type": "module",
+  "scripts": {
+    "sandbox": "bun run src/sandbox.ts",
+    "harness": "bun run src/harness.ts"
+  },
+  "dependencies": {
+    "e2b": "^2"
+  }
+}

@@ -1,0 +1,20 @@
+# env
+.env
+.env.*
+
+# go
+control/stampede
+*.test
+*.out
+
+# js/ts
+node_modules/
+.next/
+out/
+bun.lockb
+
+# editors/os
+.DS_Store
+*.swp
+.idea/
+.vscode/
